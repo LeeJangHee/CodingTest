@@ -52,6 +52,7 @@ for i in stack:
       
 result = 0
 
+# 마지막 스택 검사
 for i in check:
   if i == '(' or i == '[':
     print(0)
