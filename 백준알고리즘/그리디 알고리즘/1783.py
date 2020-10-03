@@ -5,7 +5,6 @@ import sys
 input = sys.stdin.readline
 
 n, m = map(int, input().split())
-arr = [[0]*m for _ in range(n)]
 answer = 1
 
 if n == 1:
@@ -16,6 +15,6 @@ else:
     if m < 7:
         answer = min(4, m)
     else:
-        answer = m-7+5
+        answer = m - 2
 
 print(answer)
