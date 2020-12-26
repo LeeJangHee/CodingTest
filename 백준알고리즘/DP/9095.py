@@ -1,7 +1,7 @@
 # 9095 1, 2, 3 더하기
 # DP
 
-# An = A(n-1) + A(n+2) + A(n+3)
+# An = A(n-1) + A(n-2) + A(n-3)
 t = int(input())
 for _ in range(t):
     dp = [1, 2, 4]
