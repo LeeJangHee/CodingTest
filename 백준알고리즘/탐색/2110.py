@@ -7,7 +7,7 @@ for _ in range(n):
     array.append(int(input()))
 array = sorted(array)
 
-start = array[1] - array[0]
+start = 1
 end = array[-1] - array[0]
 result = 0
 
