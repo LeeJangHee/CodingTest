@@ -9,10 +9,8 @@ class JodiFarm2 {
     }
 
     private fun ArrayList<ArrayList<Char>>.print() = onEach {
-        this.forEach {
             it.forEach { ch -> print(ch) }
             println()
-        }
     }
 
     private fun Int.toArrayList() = run {
